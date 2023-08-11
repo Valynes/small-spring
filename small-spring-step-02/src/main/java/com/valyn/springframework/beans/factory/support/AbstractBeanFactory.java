@@ -32,6 +32,7 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
 
     /**
      * 根据名称获取Bean实例。
+     * 模板方法，只定义过程不做具体实现（设计模式之一）
      *
      * @param name Bean的名称
      * @return Bean实例

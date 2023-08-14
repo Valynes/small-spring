@@ -3,9 +3,9 @@ package com.valyn.springframework.test;
 import com.valyn.springframework.beans.factory.config.BeanDefinition;
 import com.valyn.springframework.beans.factory.support.DefaultListableBeanFactory;
 import com.valyn.springframework.test.bean.UserService;
-import org.junit.Test;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.NoOp;
+import org.testng.annotations.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

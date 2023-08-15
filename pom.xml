@@ -13,6 +13,7 @@
         <module>small-spring-step-02</module>
         <module>small-spring-step-03</module>
         <module>small-spring-step-04</module>
+        <module>small-spring-step-05</module>
     </modules>
 
     <properties>
@@ -22,9 +23,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.10</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
 

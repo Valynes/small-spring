@@ -3,7 +3,7 @@ package com.valyn.springframework.test;
 import com.valyn.springframework.beans.factory.config.BeanDefinition;
 import com.valyn.springframework.beans.factory.support.DefaultListableBeanFactory;
 import com.valyn.springframework.test.bean.UserService;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 
 public class ApiTest {
